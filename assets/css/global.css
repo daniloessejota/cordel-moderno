@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+* {
+    --cor_principal: #987440;
+    --cor_secundaria: #be9150;
+    --cor_texto_principal: #161615;
+    --cor_texto_secundario: #fff;
+    --cor_alternativa_1: #f9f9f9;
+    --cor_alternativa_2: #c5c5c5;
+}
