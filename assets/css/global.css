@@ -1,5 +1,14 @@
 @charset "UTF-8";
 
+
+@font-face {
+    font-family: 'CordelEncarnado';
+    src: url(/assets/fonts/Cordel\ Encarnado.woff) format('woff');
+    src: url(/assets/fonts/Cordel\ Encarnado.otf) format('opentype');
+    src: url(/assets/fonts/Cordel\ Encarnado\ II.woff) format('woff');
+    src: url(/assets/fonts/Cordel\ Encarnado\ II.otf) format('opentype');
+}
+
 * {
     --cor_principal: #987440;
     --cor_secundaria: #be9150;
@@ -7,4 +16,18 @@
     --cor_texto_secundario: #fff;
     --cor_alternativa_1: #f9f9f9;
     --cor_alternativa_2: #c5c5c5;
+
+    --font_principal: Arial, Helvetica, sans-serif;
+    --font_h1: 'CordelEncarnado';
+    --font_text: 'Special Elite', cursive;
+
+    --fontSize_h1: 4em;
+    --fontSize_h2: 2.5em;
+    --fontSize_text: 1.5em;
+    --fontSize_footer: .6em;
+}
+
+p {
+    font: Arial, Helvetica, sans-serif;
+    font-size: 2;
 }

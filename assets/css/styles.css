@@ -12,9 +12,19 @@ header {
 }
 
 header h1 {
-    color: var(--cor_texto_secundario);
-    padding-top: 50px;
+    color: var(--cor_texto_principal);
+    padding: 50px 0 20px 0;
+
+    font-family: var(--font_h1);
     font-variant: small-caps;
+    font-size: var(--fontSize_h1);
+}
+
+h2 {
+    font-family: var(--font_h1);
+    font-variant: small-caps;
+    font-size: var(--fontSize_h2);
+    padding-bottom: 20px;
 }
 
 header p {
@@ -32,6 +42,8 @@ a:hover {
 
 p {
     text-align: center;
+    font-family: var(--font_text);
+    font-size: var(--fontSize_text);
 }
 
 
@@ -39,8 +51,8 @@ section {
     padding: 10vh 0 10vh 0;
 }
 
-.normal p {
-    padding-bottom: 10px;
+.text p {
+    padding-bottom: 20px;
 }
 
 .img {
@@ -49,7 +61,9 @@ section {
 
 footer {
     background-color: var(--cor_secundaria);
-    color: var(--cor_texto_secundario);
+    color: var(--cor_texto_principal);
     text-align: center;
     padding: 20px;
+
+    font-size: var(--fontSize_footer);
 }
