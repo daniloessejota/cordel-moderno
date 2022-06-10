@@ -12,6 +12,7 @@
 * {
     --cor_principal: #987440;
     --cor_secundaria: #be9150;
+    --cor_box: #be905042;
     --cor_texto_principal: #161615;
     --cor_texto_secundario: #fff;
     --cor_alternativa_1: #f9f9f9;
@@ -25,9 +26,8 @@
     --fontSize_h2: 2.5em;
     --fontSize_text: 1.5em;
     --fontSize_footer: .6em;
-}
 
-p {
-    font: Arial, Helvetica, sans-serif;
-    font-size: 2;
+    --img1: url(../img/background001.jpg);
+    --img2: url(../img/background002.jpg);
+
 }

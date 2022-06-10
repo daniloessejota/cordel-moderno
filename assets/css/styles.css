@@ -9,6 +9,9 @@ body {
 header {
     background-color: var(--cor_principal);
     text-align: center;
+    box-shadow: 0 0 1em 0.2em var(--cor_texto_principal);
+
+    margin-bottom: 2em;
 }
 
 header h1 {
@@ -18,6 +21,7 @@ header h1 {
     font-family: var(--font_h1);
     font-variant: small-caps;
     font-size: var(--fontSize_h1);
+    text-shadow: 2px 2px 0px var(--cor_alternativa_1);
 }
 
 h2 {
@@ -25,10 +29,13 @@ h2 {
     font-variant: small-caps;
     font-size: var(--fontSize_h2);
     padding-bottom: 20px;
+    color: var(--cor_texto_principal);
+    text-shadow: 2px 2px 0px var(--cor_alternativa_1);
 }
 
 header p {
     padding-bottom: 50px;
+    letter-spacing: 0.1em;
 }
 
 a {
@@ -46,24 +53,58 @@ p {
     font-size: var(--fontSize_text);
 }
 
-
-section {
-    padding: 10vh 0 10vh 0;
-}
-
 .text p {
-    padding-bottom: 20px;
+    padding: 1em 0 2em 0;
 }
 
 .img {
+    height: 25em;
     background-color: var(--cor_alternativa_2);
+    background-size: cover;
+    box-shadow: inset 0 0 1em 0.2em var(--cor_texto_principal);
+    /* criação do efeito parallax */
+    background-attachment: fixed;
+
+    /* para posicionar o elemento no centro verticalmente */
+    position: relative;
 }
+
+.img p {
+    background-color: var(--cor_box);
+    display: inline-block;
+    padding: 0.2em;
+    min-width: 500px;
+
+    /* para posicionar o elemento no centro verticalmente */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+.paragrafo2 {
+    color: var(--cor_alternativa_1);
+    text-shadow: 2px 2px 0px var(--cor_texto_principal);
+}
+
+#img-01 {
+    background-image: var(--img1);
+    background-position: right center;
+}
+
+#img-02 {
+    background-image: var(--img2);
+}
+
 
 footer {
     background-color: var(--cor_secundaria);
     color: var(--cor_texto_principal);
     text-align: center;
     padding: 20px;
+
+    box-shadow: 0 0 1em 0.2em var(--cor_texto_principal);
 
     font-size: var(--fontSize_footer);
 }
